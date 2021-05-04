@@ -1,13 +1,16 @@
-import React from 'react';
-import Post from "../components/Post"
+// PostList.js
+import React from "react";
+
+import Post from "../components/Post";
 
 const PostList = (props) => {
+
     return (
         <React.Fragment>
-            목록페이지!
-             <Post/>
+            <Post/>
         </React.Fragment>
     )
 }
 
 export default PostList;
+
